@@ -23,11 +23,14 @@ This is a pure CPM setting (no resource constraints).
   - `time >= s[i] + duration[i]` for each activity
   - `s[i] + duration[i] <= s[j]` for each precedence arc (i -> j)
 
+
+
 ## Install
 ```bash
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
 pip install -r requirements.txt
-
+```
+## Model Source
 Model SOURCE (NEOS Guide case study): https://neos-guide.org/case-studies/sc/mfg/project-scheduling-with-cpm/
