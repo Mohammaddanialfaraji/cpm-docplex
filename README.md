@@ -29,3 +29,5 @@ python -m venv .venv
 # Windows:
 .venv\Scripts\activate
 pip install -r requirements.txt
+
+Model SOURCE (NEOS Guide case study): https://neos-guide.org/case-studies/sc/mfg/project-scheduling-with-cpm/
